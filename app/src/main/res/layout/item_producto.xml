@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFAE1"
+        android:gravity="center">
+
+        <!-- Fila 1: Código del producto -->
+        <TableRow
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Código"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:paddingEnd="16dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/codigo_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12345"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+        </TableRow>
+
+        <!-- Fila 2: Nombre del producto -->
+        <TableRow
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:paddingEnd="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/nombre_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto Ejemplo"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+        </TableRow>
+
+        <!-- Fila 3: Precio unitario -->
+        <TableRow
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio Unitario"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:paddingEnd="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/precio_unitario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50.0"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+        </TableRow>
+
+        <!-- Fila 4: Cantidad -->
+        <TableRow
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cantidad"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:paddingEnd="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/cantidad_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+        </TableRow>
+
+        <!-- Fila 5: Descuento -->
+        <TableRow
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descuento"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:paddingEnd="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/descuento_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5%"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+        </TableRow>
+
+        <!-- Fila 6: Subtotal -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subtotal"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:paddingEnd="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/subtotal_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100.0"
+                android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
